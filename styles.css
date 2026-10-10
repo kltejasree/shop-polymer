@@ -1,0 +1,79 @@
+
+.navigator a{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: None;
+    color: black;
+
+}
+.main {
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+#menu {
+    display: none;
+    
+}
+.navigator {
+    display: none;
+}
+
+#menu:checked ~ .navigator {
+    display: block;
+}
+
+.menoutwear, .ladiesoutwear{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.title, .items .item1 a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.shop button, .footer .button button {
+    
+    height: 40px;
+    width: 150px;
+    border: 2px solid black;
+    
+
+}
+
+.tshirts {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.tshirts .shop button {
+    
+    margin-left: 38%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.footer .button button {
+    background-color: black;
+    color: white;
+}
