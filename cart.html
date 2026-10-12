@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href = "styles.css" rel = "stylesheet">  
+    <style>
+        .navbar {
+            display: none;
+        }
+
+        .image-item {
+            height: 100px;
+            width: 100px
+        }
+
+        .item-name {
+            font-size: 20px;
+            font-weight: 500;
+            
+
+        }
+
+        .cart-details {
+            display: flex;
+
+
+        }
+    </style>
+
+    
+    
+     
+    
+</head>
+<body>
+    <div class = "container">
+        <div class = "main">
+            <div class = "dup">
+                <input type = "checkbox" id = "menu" class = "hamberger"><label for = "menu">☰</label>
+                <div class = "navigator">
+                    <label for = "menu" class = "close">X</label>
+                    <ul class = "navbar">
+                        <li class = "nav-item"><a href = "mensoutwear.html" class = "nav-link">Men's Outerwear</a></li>
+                        <li class = "nav-item"><a href = "ladiesoutwear.html" class = "nav-link">Ladies Outerwear</a></li>
+                        <li class = "nav-item"><a href = "menstshirts.html" class = "nav-link">Men's T-shirts</a></li>
+                        <li class = "nav-item"><a href = "ladiestshirts.html" class = "nav-link">Ladies T-shirts</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href = "home.html"><div class = "title">S H O P</div></a>
+            <a href = " " class = "cart">🛒</a>
+        </div>
+        <main class = "cart-page">
+            
+            <div class = "cart-details">
+                <div class = "image-item"><img src = "./images/P10_mow.jpg" alt = "shirt"></div>
+                <h1 class = "item-name">Men's Voyage Fleece Jacket</h1>
+                <div class = "cart_close"><label for = "cart-close"><input type = "checkbox" class = "close" id = "cart-close">X</label></div>
+            </div>
+
+            <div class = "Quantity">
+                <span class = "quantity-details">Qty: 
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+
+                </span>
+
+                <span class = "cart-item-size">Size:  M</span>
+                <span class = "cart-item-price">$14.75</span>
+            </div>
+
+            <div class="cart-summary">
+            <div class="cart-summary-row">
+                <span>Total:</span>
+                <span>$38.85</span>
+                <a href="checkout.html" class="checkout-button">Checkout</a>
+            </div>
+        </div>
+
+
+        </main>
