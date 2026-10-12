@@ -7,112 +7,120 @@
 
     <link href = "styles.css" rel = "stylesheet">
     
-    <style>
-        .container {
-            display: flex;
-            flex-direction: column;
-            max-width: 480px;
-        }
     
-        .header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 10px;
-            
-        }
-
-        .header .head {
-            font-weight: bold;
-        }
-
-        .items {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-
-        }
-
-        
-
-
-    </style>
 </head>
 <body>
     <div class = "container">
         <div class = "main">
-            <input type = "checkbox" id = "menu"><label for = "menu">☰</label>
-            <div class = "navigator">
-                <nav>
-                    <div><a href = "mensoutwear.html">Men's Outerwear</a></div>
-                    <div><a href = "ladiesoutwear.html">Ladies Outerwear</a></div>
-                    <div><a href = "menstshirts.html">Men's T-shirts</a></div>
-                    <div><a href = "ladiestshirts.html">Ladies T-shirts</a></div>
-                </nav>
+            <div class = "dup">
+                <input type = "checkbox" id = "menu"><label for = "menu">☰</label>
+                <div class = "navigator">
+                    <label for = "menu" class = "close">X</label>
+                    <ul class = "navbar">
+                        <li class = "nav-item"><a href = "mensoutwear.html" class = "nav-link">Men's Outerwear</a></li>
+                        <li class = "nav-item"><a href = "ladiesoutwear.html" class = "nav-link">Ladies Outerwear</a></li>
+                        <li class = "nav-item"><a href = "menstshirts.html" class = "nav-link">Men's T-shirts</a></li>
+                        <li class = "nav-item"><a href = "ladiestshirts.html" class = "nav-link">Ladies T-shirts</a></li>
+                    </ul>
+                </div>
             </div>
-            <span class = "title">S H O P</span>
-            <a href = " ">🛒</a>
+            <a href = "home.html"><div class = "title">S H O P</div></a>
+            <a href = " " class = "cart">🛒</a>
         </div>
+        <div class = "title-image">
+            <a href = "mensoutwear.html"><img src = "./images/mensoutwear.png" alt = "mensoutwear"></a>
+        </div>
+        <span class = "men">Mens Outerwear</span>
+        <span class = "number">(16 items)</span>
 
-        <div class = "header">
-            <span class = "head">Men's Outerwear</span>
-            <span class = "item">(10 items)</span>
-        </div>
+        
 
         <div class = "items">
             <div class = "item1">
                 <a href = ""><img src = "./images/P1_mow.jpg"</a>
-                <a href = ""><h6 class = "name">Men's Tech Shell Full-zip</h6></a>
-                <a href = ""><p class = "cost">$50.20</p></a>
+                <a href = ""><span class = "name">Men's Tech Shell Full-zip</span></a>
+                <a href = ""><span class = "cost">$50.20</span></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/P2_mow.jpg"</a>
-                <a href = ""><h6 class = "name">Anvil L/S Crew Neck - Grey</h6></a>
-                <a href = ""><p class = "cost">$22.15</p></a>
+                <a href = ""><span class = "name">Anvil L/S Crew Neck - Grey</h6></a>
+                <a href = ""><span class = "cost">$22.15</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/P3_mow.jpg"</a>
-                <a href = ""><h6 class = "name">Green Flex Fleece Zip Hoodie</h6></a>
-                <a href = ""><p class = "cost">$45.65</p></a>
+                <a href = ""><span class = "name">Green Flex Fleece Zip Hoodie</h6></a>
+                <a href = ""><span class = "cost">$45.65</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/P4_mow.jpg"</a>
-                <a href = ""><h6 class = "name">Android Nylon Packable Jacket</h6></a>
-                <a href = ""><p class = "cost">$33.60</p></a>
+                <a href = ""><span class = "name">Android Nylon Packable Jacket</h6></a>
+                <a href = ""><span class = "cost">$33.60</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/P5_mow.jpg"</a>
-                <a href = ""><h6 class = "name">YouTube Ultimate Hooded Sweatshirt</h6></a>
-                <a href = ""><p class = "cost">$32.35</p></a>
+                <a href = ""><span class = "name">YouTube Ultimate Hooded Sweatshirt</h6></a>
+                <a href = ""><span class = "cost">$32.35</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/P6_mow.jpg"</a>
-                <a href = ""><h6 class = "name">Grey Heather Fleece Zip Hoodie</h6></a>
-                <a href = ""><p class = "cost">$38.85</p></a>
+                <a href = ""><span class = "name">Grey Heather Fleece Zip Hoodie</h6></a>
+                <a href = ""><span class = "cost">$38.85</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/P7_mow.jpg"</a>
-                <a href = ""><h6 class = "name">Vastram Hoodie</h6></a>
-                <a href = ""><p class = "cost">$200.00</p></a>
+                <a href = ""><span class = "name">Vastram Hoodie</h6></a>
+                <a href = ""><span class = "cost">$200.00</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/P8_mow.jpg"</a>
-                <a href = ""><h6 class = "name">Recycled Plastic Bottle Hoodie - Green</h6></a>
-                <a href = ""><p class = "cost">$60.95</p></a>
+                <a href = ""><span class = "name">Recycled Plastic Bottle Hoodie - Green</h6></a>
+                <a href = ""><span class = "cost">$60.95</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/P9_mow.jpg"</a>
-                <a href = ""><h6 class = "name">Rowan Pullover Hood</h6></a>
-                <a href = ""><p class = "cost">$60.85</p></a>
+                <a href = ""><span class = "name">Rowan Pullover Hood</h6></a>
+                <a href = ""><span class = "cost">$60.85</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/P10_mow.jpg"</a>
-                <a href = ""><h6 class = "name">Men's Voyage Fleece Jacket</h6></a>
-                <a href = ""><p class = "cost">$48.00</p></a>
+                <a href = ""><span class = "name">Men's Voyage Fleece Jacket</h6></a>
+                <a href = ""><span class = "cost">$48.00</p></a>
             </div>
-            <footer class = "footer">
-                <div class = "initial">Made by Polymer</div>
-                <a href = " "><div class = "button"><button>DEMO ONLY</button></div></a>
-            </footer>
-
+            <div class = "item1">
+                <a href = ""><img src = "./images/P11_mow.jpg"</a>
+                <a href = ""><span class = "name">Men's Voyage Fleece Jacket</h6></a>
+                <a href = ""><span class = "cost">$48.00</p></a>
+            </div>
+            <div class = "item1">
+                <a href = ""><img src = "./images/P12_mow.jpg"</a>
+                <a href = ""><span class = "name">Men's Voyage Fleece Jacket</h6></a>
+                <a href = ""><span class = "cost">$48.00</p></a>
+            </div>
+            <div class = "item1">
+                <a href = ""><img src = "./images/P13_mow.jpg"</a>
+                <a href = ""><span class = "name">Men's Voyage Fleece Jacket</h6></a>
+                <a href = ""><span class = "cost">$48.00</p></a>
+            </div>
+            <div class = "item1">
+                <a href = ""><img src = "./images/P14_mow.jpg"</a>
+                <a href = ""><span class = "name">Men's Voyage Fleece Jacket</h6></a>
+                <a href = ""><span class = "cost">$48.00</p></a>
+            </div>
+            <div class = "item1">
+                <a href = ""><img src = "./images/P15_mow.jpg"</a>
+                <a href = ""><span class = "name">Men's Voyage Fleece Jacket</h6></a>
+                <a href = ""><span class = "cost">$48.00</p></a>
+            </div>
+           
         </div>
+
+            <div class = "footer">
+                <a href = "https://polymer-library.polymer-project.org/3.0/docs/apps/"><div class = "title">Made by Polymer</div></a>
+                <div class = "button"><button>Demo Only</button></div>
+
+
+
+            </div>
+    </div>
+        
 

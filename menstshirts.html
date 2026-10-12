@@ -7,103 +7,82 @@
 
     <link href = "styles.css" rel = "stylesheet">
     
-    <style>
-        .container {
-            display: flex;
-            flex-direction: column;
-            max-width: 480px;
-        }
     
-        .header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 10px;
-            
-        }
-
-        .header .head {
-            font-weight: bold;
-        }
-
-        .items {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-
-        }
-
-        
-
-
-    </style>
 </head>
 <body>
     <div class = "container">
         <div class = "main">
-            <input type = "checkbox" id = "menu"><label for = "menu">☰</label>
-            <div class = "navigator">
-                <nav>
-                    <div><a href = "mensoutwear.html">Men's Outerwear</a></div>
-                    <div><a href = "ladiesoutwear.html">Ladies Outerwear</a></div>
-                    <div><a href = "menstshirts.html">Men's T-shirts</a></div>
-                    <div><a href = "ladiestshirts.html">Ladies T-shirts</a></div>
-                </nav>
+            <div class = "dup">
+                <input type = "checkbox" id = "menu"><label for = "menu">☰</label>
+                <div class = "navigator">
+                    <label for = "menu" class = "close">X</label>
+                    <ul class = "navbar">
+                        <li class = "nav-item"><a href = "mensoutwear.html" class = "nav-link">Men's Outerwear</a></li>
+                        <li class = "nav-item"><a href = "ladiesoutwear.html" class = "nav-link">Ladies Outerwear</a></li>
+                        <li class = "nav-item"><a href = "menstshirts.html" class = "nav-link">Men's T-shirts</a></li>
+                        <li class = "nav-item"><a href = "ladiestshirts.html" class = "nav-link">Ladies T-shirts</a></li>
+                    </ul>
+                </div>
             </div>
-            <span class = "title">S H O P</span>
-            <a href = " ">🛒</a>
+            <a href = "home.html"><div class = "title">S H O P</div></a>
+            <a href = " " class = "cart">🛒</a>
         </div>
-
-        <div class = "header">
-            <span class = "head">Men's T-Shirts</span>
-            <span class = "item">(8 items)</span>
+        <div class = "title-image">
+            <a href = "menstshirts.html"><img src = "./images/menstshirt.png" alt = "mensoutwear"></a>
         </div>
+        <span class = "men">Mens T-shirts</span>
+        <span class = "number">(16 items)</span>
 
         <div class = "items">
             <div class = "item1">
                 <a href = ""><img src = "./images/Product1-tshirt.jpg"</a>
-                <a href = ""><h6 class = "name">Youtube Organic Cotton T-shirt - Grey</h6></a>
-                <a href = ""><p class = "cost">$14.75</p></a>
+                <a href = ""><span class = "name">Youtube Organic Cotton T-shirt - Grey</h6></a>
+                <a href = ""><span class = "cost">$14.75</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/Product2-tshirt.jpg"</a>
-                <a href = ""><h6 class = "name">Inbox - Subtle Actions T-shirt</h6></a>
-                <a href = ""><p class = "cost">$17.05</p></a>
+                <a href = ""><span class = "name">Inbox - Subtle Actions T-shirt</h6></a>
+                <a href = ""><span class = "cost">$17.05</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/Product3-tshirt.jpg"</a>
-                <a href = ""><h6 class = "name">Adult Android Superhero T-shirt</h6></a>
-                <a href = ""><p class = "cost">$14.95</p></a>
+                <a href = ""><span class = "name">Adult Android Superhero T-shirt</h6></a>
+                <a href = ""><span class = "cost">$14.95</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/Product4-tshirt.jpg"</a>
-                <a href = ""><h6 class = "name">Men's Vintage Heather T-shirt</h6></a>
-                <a href = ""><p class = "cost">$15.80</p></a>
+                <a href = ""><span class = "name">Men's Vintage Heather T-shirt</h6></a>
+                <a href = ""><span class = "cost">$15.80</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/Product5-tshirt.jpg"</a>
-                <a href = ""><h6 class = "name">Basic Black T-shirt</h6></a>
-                <a href = ""><p class = "cost">$16.90</p></a>
+                <a href = ""><span class = "name">Basic Black T-shirt</h6></a>
+                <a href = ""><span class = "cost">$16.90</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/Product6-tshirt.jpg"</a>
-                <a href = ""><h6 class = "name">Local Guider T-shirt</h6></a>
-                <a href = ""><p class = "cost">$15.70</p></a>
+                <a href = ""><span class = "name">Local Guider T-shirt</h6></a>
+                <a href = ""><span class = "cost">$15.70</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/Product7-tshirt.jpg"</a>
-                <a href = ""><h6 class = "name">Go Gopher T-shirt in Teal</h6></a>
-                <a href = ""><p class = "cost">$10.95</p></a>
+                <a href = ""><span class = "name">Go Gopher T-shirt in Teal</h6></a>
+                <a href = ""><span class = "cost">$10.95</p></a>
             </div>
             <div class = "item1">
                 <a href = ""><img src = "./images/Product4-tshirt.jpg"</a>
-                <a href = ""><h6 class = "name">Men's Vintage Heather T-shirt</h6></a>
-                <a href = ""><p class = "cost">$15.80</p></a>
+                <a href = ""><span class = "name">Men's Vintage Heather T-shirt</h6></a>
+                <a href = ""><span class = "cost">$15.80</p></a>
             </div>
-            
-            <footer class = "footer">
-                <div class = "initial">Made by Polymer</div>
-                <a href = " "><div class = "button"><button>DEMO ONLY</button></div></a>
-            </footer>
-
         </div>
+    
+            <div class = "footer">
+            <a href = "https://polymer-library.polymer-project.org/3.0/docs/apps/"><div class = "title">Made by Polymer</div></a>
+            <div class = "button"><button>Demo Only</button></div>
+
+
+
+        
+        </div>
+    </div>
 

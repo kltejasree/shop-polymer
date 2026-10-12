@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href = "styles.css" rel = "stylesheet">  
 
-    <link href = "styles.css" rel = "stylesheet">   
+    
+    
+     
+    
 </head>
 <body>
     <div class = "container">
         <div class = "main">
-            <input type = "checkbox" id = "menu"><label for = "menu">☰</label>
-            <div class = "navigator">
-                <nav>
-                    <div><a href = "mensoutwear.html">Men's Outerwear</a></div>
-                    <div><a href = "ladiesoutwear.html">Ladies Outerwear</a></div>
-                    <div><a href = "menstshirts.html">Men's T-shirts</a></div>
-                    <div><a href = "ladiestshirts.html">Ladies T-shirts</a></div>
-                </nav>
+            <div class = "dup">
+                <input type = "checkbox" id = "menu" class = "hamberger"><label for = "menu">☰</label>
+                <div class = "navigator">
+                    <label for = "menu" class = "close">X</label>
+                    <ul class = "navbar">
+                        <li class = "nav-item"><a href = "mensoutwear.html" class = "nav-link">Men's Outerwear</a></li>
+                        <li class = "nav-item"><a href = "ladiesoutwear.html" class = "nav-link">Ladies Outerwear</a></li>
+                        <li class = "nav-item"><a href = "menstshirts.html" class = "nav-link">Men's T-shirts</a></li>
+                        <li class = "nav-item"><a href = "ladiestshirts.html" class = "nav-link">Ladies T-shirts</a></li>
+                    </ul>
+                </div>
             </div>
             <a href = "home.html"><div class = "title">S H O P</div></a>
-            <a href = " ">🛒</a>
+            <a href = " " class = "cart">🛒</a>
         </div>
 
         <div class = "menoutwear">
@@ -41,23 +48,27 @@
 
         <div class = "tshirts">
             <div class = "men">
-                <a href = "menstshirts.html"><img src = './images/menstshirt.png' alt = "mentshirts"></a>
+                <a href = "menstshirts.html" class = "mens"><img src = './images/menstshirt.png' alt = "mentshirts"></a>
                 <div class = "title">Mens's T-Shirts</div>
                 <a href = "menstshirts.html"><div class = "shop"><button>SHOP NOW</button></div></a>
             </div>
 
             <div>
 
-                <a href = "ladiestshirts.html"><img src = './images/ladiestshirt.png' alt = "ladiestshirts"></a>
+                <a href = "ladiestshirts.html" class = "ladies"><img src = './images/ladiestshirt.png' alt = "ladiestshirts"></a>
                 <div class = "title">Ladies's T-shirts</div>
                 <a href = "ladiestshirts.html"><div class = "shop"><button>SHOP NOW</button></div></a>
             </div>
             
         </div>
-        <footer class = "footer">
-            <div class = "initial">Made by Polymer</div>
-            <a href = " "><div class = "button"><button>DEMO ONLY</button></div></a>
-        </footer>
+        
+        <div class = "footer">
+            <a href = "https://polymer-library.polymer-project.org/3.0/docs/apps/"><div class = "title">Made by Polymer</div></a>
+            <div class = "button"><button>Demo Only</button></div>
+
+
+
+        </div>
     </div>
 
 </body>
