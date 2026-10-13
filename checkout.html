@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href = "styles.css" rel = "stylesheet"> 
+    
+
+</head>
+<body>
+
+
+    <div class = "checkout-container">
+        <a href="home.html"><div class="title">S H O P</div></a>
+        <a href="cart.html"><div class="cart">🛒</div></a>
+        <input type="checkbox" id="menu" class="hamberger">
+            <label for="menu" class = "hamberger-symbol">☰</label>
+       
+        
+        <div class="category-options">
+            <input type="radio" id="mensoutwear-radio" name="category" checked>
+            <input type="radio" id="ladiesoutwear-radio" name="category">
+            <input type="radio" id="menstshirts-radio" name="category">
+            <input type="radio" id="ladiestshirts-radio" name="category">
+        </div>
+
+        <div class="main">
+            <div class="dup">
+                
+
+                <div class="navigator">
+                    <a href="./item-listing-page.html#mensoutwear">Men's Outerwear</a>
+                    <a href="./item-listing-page.html#ladiesOutWear">Ladies' Outerwear</a>
+                    <a href="./item-listing-page.html#menstshirts">Men's T-shirts</a>
+                    <a href="./item-listing-page.html#ladiestshirts">Ladies' T-shirts</a>
+                </div>
+            </div>
+
+            
+        </div>
+         <div class = "header">
+            <span class = "head">Checkout</span>
+            <span class = "details">Shop is a demo app - form data will not be sent</span>
+         </div>
+         <div class = "checkout">
+            <div class = "shippingAddress">
+                <h5 class = "Info">Account Information</h5>
+
+                <div class = "email">
+                    
+                    <input type = "email" class = "line-input" placeholder="Email" required>
+                </div>
+
+                <div class = "phone">
+
+
+                    <input type = "tel" class = "line-input" placeholder="Phone number">
+                    
+                </div>
+                <h5 class = "shipping">Shipping Address</h5>
+                <div class = "shipping">
+                
+                    <input type ="textarea" class = "line-input" placeholder="Address" required>
+                </div>
+                <div class = "city">
+                
+                    <input type ="text" class = "line-input" placeholder="city" required>
+                </div>
+
+
+                <div class = "stateandpin">
+                    <span class = "state">
+                    
+                        <input type ="text" class = "line-input" placeholder="State/Province" required>
+
+                    </span>
+                    <span class = "zip">
+                    
+                        <input type ="text" class = "line-input" placeholder="Zip/Postal Code" required>
+
+                    </span>
+                </div>
+
+                <div class = "country">
+                    <p class = "name">Country</p>
+                    <select class = "country">
+                        <option>United States</option>
+                        <option>Canada</option>
+                        
+                    </select>
+                </div>
+
+            
+            
+                <div class = "billing Address">
+                    <h5 class = "billing">Billing Address</h5>
+                    <label for = "billing">
+                        <input type = "checkbox" id = "billing"> Use different billing address</label>
+                    </label>
+
+                </div>
+
+
+
+            </div>
+
+            <div class = "payment">
+                <h5 class = "method">Payemnt Method</h5>
+                <input type = "text" class = "line-input" placeholder="Cardholder Name" required>
+                <br>
+                <input type = "text" class = "line-input" placeholder = "Card Number" required>
+                <br>
+
+                <p class = "expiry">Expiry</p>
+                <div class = "date">
+                    
+                    <select class = "month">
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>Mar</option>
+                        <option>Apr</option>
+                        <option>May</option>
+                        <option>Jun</option>
+                        <option>Jul</option>
+                        <option>Aug</option>
+                        <option>Sep</option>
+                        <option>Oct</option>
+                        <option>Nov</option>
+                        <option>Dec</option>
+                    </select>
+
+                    <select class = "year">
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                        
+                    </select>
+                
+                    <span><input type = "text" class = "line-input" placeholder = "CVV"></span>
+
+                </div>
+
+                <div class = "ordersummary">
+                    <h5 class = "summary">Order Summary</h5>
+                    <div class = "details">
+                        <p class = "ordername">Men's Tech Shell Full-Zip</p>
+                        <p class = "price">$50.20</p>
+                    </div>
+
+                    <div class = "total">
+                        <p class = "total">Total</p>
+                        <p class = "totalprice">$50.20</p>
+                    </div>
+                </div>
+
+                
+                <div class = "order-button">
+                    <button class = "placeorder">Place Order</button>
+                </div>
+
+            
+
+                
+            </div>
+
+        </div>
+        <div class = "footer">
+            <a href = "https://polymer-library.polymer-project.org/3.0/docs/apps/"><div class = "title">Made by Polymer</div></a>
+            <div class = "button"><button>Demo Only</button></div>
+
+            </div>
+        
+    </div>
+
+

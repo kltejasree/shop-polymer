@@ -12,52 +12,63 @@
     
 </head>
 <body>
-    <div class = "container">
-        <div class = "main">
-            <div class = "dup">
-                <input type = "checkbox" id = "menu" class = "hamberger"><label for = "menu">☰</label>
-                <div class = "navigator">
-                    <label for = "menu" class = "close">X</label>
-                    <ul class = "navbar">
-                        <li class = "nav-item"><a href = "mensoutwear.html" class = "nav-link">Men's Outerwear</a></li>
-                        <li class = "nav-item"><a href = "ladiesoutwear.html" class = "nav-link">Ladies Outerwear</a></li>
-                        <li class = "nav-item"><a href = "menstshirts.html" class = "nav-link">Men's T-shirts</a></li>
-                        <li class = "nav-item"><a href = "ladiestshirts.html" class = "nav-link">Ladies T-shirts</a></li>
-                    </ul>
+    <div class = "home-container">
+        <a href="home.html"><div class="title">S H O P</div></a>
+        <a href="cart.html"><div class="cart">🛒</div></a>
+        <input type="checkbox" id="menu" class="hamberger">
+            <label for="menu" class = "hamberger-symbol">☰</label>
+       
+        
+        <div class="category-options">
+            <input type="radio" id="mensoutwear-radio" name="category" checked>
+            <input type="radio" id="ladiesoutwear-radio" name="category">
+            <input type="radio" id="menstshirts-radio" name="category">
+            <input type="radio" id="ladiestshirts-radio" name="category">
+        </div>
+
+        <div class="main">
+            <div class="dup">
+                
+
+                <div class="navigator">
+                    <a href="./item-listing-page.html#mensoutwear">Men's Outerwear</a>
+                    <a href="./item-listing-page.html#ladiesOutWear">Ladies' Outerwear</a>
+                    <a href="./item-listing-page.html#menstshirts">Men's T-shirts</a>
+                    <a href="./item-listing-page.html#ladiestshirts">Ladies' T-shirts</a>
                 </div>
             </div>
-            <a href = "home.html"><div class = "title">S H O P</div></a>
-            <a href = " " class = "cart">🛒</a>
+
+            
         </div>
 
         <div class = "menoutwear">
-            <a href = "mensoutwear.html"><img src = './images/mensoutwear.png' alt = "menOutWear"></a>
+            <a href = "./item-listing-page.html#mensoutwear"><img src = './images/mensoutwear.png' alt = "menOutWear"></a>
             <div class = "title">Men's Outerwear</div>
-            <a href = "mensoutwear.html"><div class = "shop"><button>SHOP NOW</button></div></a>
+            <a href = "./item-listing-page.html#mensoutwear"><div class = "shop"><button>SHOP NOW</button></div></a>
 
 
         </div>
 
         <div class = "ladiesoutwear">
-            <a href = "ladiesoutwear.html"><img src = './images/ladiesoutwear.png' alt = "ladiesOutWear"></a>
+            <a href = "./item-listing-page.html#ladiesOutWear"><img src = './images/ladiesoutwear.png' alt = "ladiesOutWear"></a>
             <div class = "title">Ladies's Outerwear</div>
-            <a href = "ladiesoutwear.html"><div class = "shop"><button>SHOP NOW</button></div></a>
+            <a href = "./item-listing-page.html#ladiesOutWear"><div class = "shop"><button>SHOP NOW</button></div></a>
 
 
         </div>
 
         <div class = "tshirts">
-            <div class = "men">
-                <a href = "menstshirts.html" class = "mens"><img src = './images/menstshirt.png' alt = "mentshirts"></a>
+            <div class = "tshirt-item">
+                <a href = "./item-listing-page.html#menstshirts" class = "mens"><img src = './images/menstshirt.png' alt = "mentshirts"></a>
                 <div class = "title">Mens's T-Shirts</div>
-                <a href = "menstshirts.html"><div class = "shop"><button>SHOP NOW</button></div></a>
+                <a href = "./item-listing-page.html#menstshirts"><div class = "shop"><button>SHOP NOW</button></div></a>
             </div>
 
-            <div>
+            <div class = "tshirt-item">
 
-                <a href = "ladiestshirts.html" class = "ladies"><img src = './images/ladiestshirt.png' alt = "ladiestshirts"></a>
+                <a href = "./item-listing-page.html#ladiestshirts" class = "ladies"><img src = './images/ladiestshirt.png' alt = "ladiestshirts"></a>
                 <div class = "title">Ladies's T-shirts</div>
-                <a href = "ladiestshirts.html"><div class = "shop"><button>SHOP NOW</button></div></a>
+                <a href = "./item-listing-page.html#ladiestshirts"><div class = "shop"><button>SHOP NOW</button></div></a>
             </div>
             
         </div>
